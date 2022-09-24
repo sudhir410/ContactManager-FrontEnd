@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web';
+}
+.main-container{
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(0.2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+    background-color:rgba(39, 38, 38, 0.5);
+
+    
+   
+}
+
+.short-container{
+   padding: 30px;
+    height:400px;
+ 
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.short-container img{
+    margin-top: 13px;
+    margin-bottom: 6.5px;
+}
+.short-container .insertfile{
+    font-weight: 600;
+    font-size: 24px;
+    border: none;
+}
+.short-container .p-tag{
+    margin-top: 6.5px;
+    color: #2DA5FC;
+    font-weight: 600;
+    font-size: 18px;
+}
+.short-container .cancel{
+    margin-top: 18px;
+    padding:2.5% 7%;
+    background-color: #2DA5FC;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 13px;
+
+}
+.short-container .submit{
+    margin-top: 18px;
+    padding:1% 7%;
+    background-color: #2DA5FC;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+
+}

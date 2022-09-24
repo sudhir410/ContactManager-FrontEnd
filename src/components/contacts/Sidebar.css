@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+main {
+    display: flex;
+    font-family: 'Titillium Web';
+
+}
+
+.sidesection {
+    width: 251px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container {
+    height: 90%;
+    background-color: #CEF3FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h1-tag {
+    color: #0884FF;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 50px;
+    margin-top: 8%;
+    margin-left: -45%;
+}
+
+.h1-tag h1 {
+    font-weight: 600;
+
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20%;
+    margin-left: -25px;
+    margin-bottom: 18px;
+}
+
+.dashboard p {
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 5%;
+
+}
+
+.dashboard .icon {
+    margin-top: -1.5px;
+}
+
+.total-contacts {
+
+    width: 180px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    background-color: #2DA5FC;
+    margin-top: 14%;
+    border-radius: 6px;
+    position: relative;
+
+}
+
+.total-contacts::after {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+
+.total-contacts p {
+    margin-left: 5%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    padding-top: 1.5px;
+
+}
+
+.logout-container {
+    height: 10%;
+    /* margin-top: 2%; */
+    border-top: 3px solid white;
+    background-color: #CEF3FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout {
+    display: flex;
+    flex-direction: row;
+}
+
+.logout p {
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px
+}
